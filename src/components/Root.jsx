@@ -5,6 +5,9 @@ const Root = () => {
     return (
         <div>
             <Header></Header>
+            <div className='h-[82px]'>
+                
+            </div>
             <Outlet></Outlet>
         </div>
     );
